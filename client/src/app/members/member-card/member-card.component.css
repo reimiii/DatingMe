@@ -34,3 +34,10 @@
 .animate {
     transition: all 0.3s ease-in-out;
 }
+
+/* beda */
+.img-thumbnail {
+    margin: 15px;
+    width: 85%;
+    height: 85%;
+}
