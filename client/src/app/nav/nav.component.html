@@ -22,11 +22,15 @@
             <a class="nav-link" routerLink="/admin" routerLinkActive="active">Admin </a>
           </li>
 
+          <li *appHasRole='["Admin", "Moderator"]' class="nav-item">
+            <a class="nav-link" routerLink="/errors" routerLinkActive="active">Err</a>
+          </li>
+
         </ng-container>
 
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <a class="nav-link" routerLink="/errors" routerLinkActive="active">Err</a>
-        </li>
+        </li> -->
 
 			</ul>
 
